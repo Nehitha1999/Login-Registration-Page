@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopKart - Login & Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="left-panel">
+        <h1>ShopKart</h1>
+        <p>Discover the latest fashion, electronics, and more.</p>
+    </div>
+
+    <div class="form-container">
+
+        <div class="button-box">
+            <button id="loginBtn" class="active">Login</button>
+            <button id="registerBtn">Register</button>
+        </div>
+
+        <!-- Login Form -->
+        <form id="loginForm" class="form active-form">
+
+            <h2>Welcome Back</h2>
+
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <i class="fa-solid fa-eye togglePassword"></i>
+            </div>
+
+            <div class="options">
+                <label>
+                    <input type="checkbox"> Remember Me
+                </label>
+                <a href="#">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="submit-btn">Login</button>
+
+        </form>
+
+        <!-- Register Form -->
+        <form id="registerForm" class="form">
+
+            <h2>Create Account</h2>
+
+            <div class="input-box">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Full Name" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" placeholder="Mobile Number" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="registerPassword" placeholder="Create Password" required>
+                <i class="fa-solid fa-eye togglePassword"></i>
+            </div>
+
+            <button type="submit" class="submit-btn">Create Account</button>
+
+            <form id="loginForm" class="form active-form">
+
+    <h2>Welcome Back</h2>
+
+    <!-- other inputs -->
+
+    <button type="submit" class="submit-btn">
+        Login
+    </button>
+
+</form>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

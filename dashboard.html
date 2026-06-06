@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopKart Dashboard</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+.navbar{
+    background:#2563eb;
+    color:#fff;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar button{
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:45px;
+    color:#111827;
+}
+
+.hero p{
+    color:#6b7280;
+    margin-top:10px;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <h2>ShopKart</h2>
+    <button onclick="logout()">Logout</button>
+</div>
+
+<div class="hero">
+    <h1>Welcome to Dashboard 🎉</h1>
+    <p>You have successfully logged in.</p>
+</div>
+
+<script>
+function logout(){
+    window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
